@@ -34,7 +34,7 @@ export async function displayImageOnCanvas(
 
   const imageData = ctx.createImageData(readWidth, readHeight);
   const data = imageData.data;
-
+  // converts a 3-band raster image (RGB) into a flat RGBA
   for (let i = 0; i < readWidth * readHeight; i++) {
     data[i * 4] = rasters[0][i];
     data[i * 4 + 1] = rasters[1][i];
