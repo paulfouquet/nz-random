@@ -1,0 +1,17 @@
+{
+  "name": "nz-random",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "geotiff": "^2.1.4-beta.0",
+    "vite": "^7.0.6"
+  }
+}
